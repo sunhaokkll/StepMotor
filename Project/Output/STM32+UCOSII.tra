@@ -1,0 +1,71 @@
+*** Creating Trace Output File '.\Output\STM32+UCOSII.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\output\app.o"'
+### List of Objects: adding '".\output\tasksr04.o"'
+### List of Objects: adding '".\output\taskcommunication.o"'
+### List of Objects: adding '".\output\taskrtc.o"'
+### List of Objects: adding '".\output\taskmsd.o"'
+### List of Objects: adding '".\output\task2305.o"'
+### List of Objects: adding '".\output\tasklift.o"'
+### List of Objects: adding '".\output\bsp.o"'
+### List of Objects: adding '".\output\usart.o"'
+### List of Objects: adding '".\output\sr04.o"'
+### List of Objects: adding '".\output\adc.o"'
+### List of Objects: adding '".\output\rtc.o"'
+### List of Objects: adding '".\output\spi_msd0_driver.o"'
+### List of Objects: adding '".\output\fatfs.o"'
+### List of Objects: adding '".\output\enc28j60.o"'
+### List of Objects: adding '".\output\timerx.o"'
+### List of Objects: adding '".\output\am2305.o"'
+### List of Objects: adding '".\output\pto.o"'
+### List of Objects: adding '".\output\main.o"'
+### List of Objects: adding '".\output\stm32f10x_it.o"'
+### List of Objects: adding '".\output\startup_stm32f10x_hd.o"'
+### List of Objects: adding '".\output\core_cm3.o"'
+### List of Objects: adding '".\output\system_stm32f10x.o"'
+### List of Objects: adding '".\output\misc.o"'
+### List of Objects: adding '".\output\stm32f10x_crc.o"'
+### List of Objects: adding '".\output\stm32f10x_exti.o"'
+### List of Objects: adding '".\output\stm32f10x_gpio.o"'
+### List of Objects: adding '".\output\stm32f10x_rcc.o"'
+### List of Objects: adding '".\output\stm32f10x_tim.o"'
+### List of Objects: adding '".\output\stm32f10x_usart.o"'
+### List of Objects: adding '".\output\stm32f10x_adc.o"'
+### List of Objects: adding '".\output\stm32f10x_dma.o"'
+### List of Objects: adding '".\output\stm32f10x_bkp.o"'
+### List of Objects: adding '".\output\stm32f10x_flash.o"'
+### List of Objects: adding '".\output\stm32f10x_pwr.o"'
+### List of Objects: adding '".\output\stm32f10x_rtc.o"'
+### List of Objects: adding '".\output\stm32f10x_spi.o"'
+### List of Objects: adding '".\output\os_core.o"'
+### List of Objects: adding '".\output\os_flag.o"'
+### List of Objects: adding '".\output\os_mbox.o"'
+### List of Objects: adding '".\output\os_mem.o"'
+### List of Objects: adding '".\output\os_mutex.o"'
+### List of Objects: adding '".\output\os_q.o"'
+### List of Objects: adding '".\output\os_sem.o"'
+### List of Objects: adding '".\output\os_task.o"'
+### List of Objects: adding '".\output\os_time.o"'
+### List of Objects: adding '".\output\os_tmr.o"'
+### List of Objects: adding '".\output\os_cpu_c.o"'
+### List of Objects: adding '".\output\os_dbg.o"'
+### List of Objects: adding '".\output\os_cpu_a.o"'
+### List of Objects: adding '".\output\ccsbcs.o"'
+### List of Objects: adding '".\output\diskio.o"'
+### List of Objects: adding '".\output\ff.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\output\app.o" ".\output\tasksr04.o" ".\output\taskcommunication.o" ".\output\taskrtc.o" ".\output\taskmsd.o" ".\output\task2305.o" ".\output\tasklift.o" ".\output\bsp.o" ".\output\usart.o" ".\output\sr04.o" ".\output\adc.o" ".\output\rtc.o" ".\output\spi_msd0_driver.o" ".\output\fatfs.o" ".\output\enc28j60.o" ".\output\timerx.o" ".\output\am2305.o" ".\output\pto.o" ".\output\main.o" ".\output\stm32f10x_it.o" ".\output\startup_stm32f10x_hd.o" ".\output\core_cm3.o" ".\output\system_stm32f10x.o" ".\output\misc.o" ".\output\stm32f10x_crc.o" ".\output\stm32f10x_exti.o" ".\output\stm32f10x_gpio.o" ".\output\stm32f10x_rcc.o" ".\output\stm32f10x_tim.o" ".\output\stm32f10x_usart.o" ".\output\stm32f10x_adc.o" ".\output\stm32f10x_dma.o" ".\output\stm32f10x_bkp.o" ".\output\stm32f10x_flash.o" ".\output\stm32f10x_pwr.o" ".\output\stm32f10x_rtc.o" ".\output\stm32f10x_spi.o" ".\output\os_core.o" ".\output\os_flag.o" ".\output\os_mbox.o" ".\output\os_mem.o" ".\output\os_mutex.o" ".\output\os_q.o" ".\output\os_sem.o" ".\output\os_task.o" ".\output\os_time.o" ".\output\os_tmr.o" ".\output\os_cpu_c.o" ".\output\os_dbg.o" ".\output\os_cpu_a.o" ".\output\ccsbcs.o" ".\output\diskio.o" ".\output\ff.o" --library_type=microlib --strict --scatter ".\Output\STM32+UCOSII.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Listing\STM32+UCOSII.map" -o ".\Output\STM32+UCOSII.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\Output\STM32+UCOSII.axf'
+### ADS-LD Command File: '.\Output\STM32+UCOSII.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\Output\STM32+UCOSII.lnp', Handle=0x000001C8
+### Writing '.lnp' file
+### ADS-LD Command file '.\Output\STM32+UCOSII.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
